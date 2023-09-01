@@ -90,12 +90,12 @@ class rasterize(GdalAlgorithm):
                                                      self.tr('Output raster size units'),
                                                      self.units))
         self.addParameter(QgsProcessingParameterNumber(self.WIDTH,
-                                                       self.tr('Width/Horizontal resolution'),
+                                                       self.tr('Cell width/Horizontal resolution'),
                                                        type=QgsProcessingParameterNumber.Double,
                                                        minValue=0.0,
                                                        defaultValue=0.0))
         self.addParameter(QgsProcessingParameterNumber(self.HEIGHT,
-                                                       self.tr('Height/Vertical resolution'),
+                                                       self.tr('Cell height/Vertical resolution'),
                                                        type=QgsProcessingParameterNumber.Double,
                                                        minValue=0.0,
                                                        defaultValue=0.0))
